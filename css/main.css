@@ -1,0 +1,182 @@
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+body{
+    background-color:#fafafa;
+    color: #37345A;
+    margin: 0;
+    padding: 0;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container2{
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+}
+
+.container_page{
+  text-align: center
+}
+
+.button_1{
+  color: white;
+  height: 44px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border:none;
+  background-color: #e4c39e;
+  border: 0;
+  margin-top: 40px;
+}
+
+
+
+header{
+    height: 180px;
+    background-color: #fafafa;
+    color: black;
+    width: 100%;
+}
+
+#logo{
+    float: left;
+    background-color: #7d7769;
+    width: 300px;
+    height: 163px;
+}
+
+#logo img{
+width: 100%;
+}
+
+nav{
+    float: left;
+    padding-top: 130px;
+}
+nav ul{
+    list-style-type:none;
+}
+nav li{
+  display: inline;
+}
+nav li a{
+    color: #2d2d2d;
+    padding-right: 65px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+  
+}
+nav li a:hover{
+    color: blue;
+    transition: 1s;
+}
+
+
+
+#hero{
+    min-height: 600px;
+    border-bottom: 1px solid lightgray;
+    background-image: image(bg.jpg);
+}
+
+.hero_right{
+  float: left;
+  width: 60%;
+  color: #c9d0d6;
+}
+#hero h1{
+  line-height: 80px;
+  font-size: 62px;
+  font-family: inherit;
+  padding-top: 80px;
+}
+#hero p{
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.hero_image{
+  float:left;
+}
+
+.hero_left{
+  min-height: 600px;
+  float: right;
+  width: 40%;
+  color:#2d2d2d;
+}
+#hero img{
+  width: 550px;
+}
+
+#footer{
+  background-color: #7d7769;
+  height: 400px;
+}
+
+#pagewrap{
+  padding: 5px;
+  min-height: 700px;
+  width: 960px;
+  margin: 60px auto;
+  font-family: inherit;
+  float:left;
+  color: #2d2d2d;
+  margin-left: 120px;
+}
+
+.sub-content h2{
+  font-family: inherit;
+  font-size: 60px;
+  color: #2d2d2d;
+}
+
+.sub-content img{
+  width:700px;
+}
+
+.cool {
+  display: inline-block;
+  position: relative;
+  font-size: 62px;
+}
+
+.cool:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 8px; 
+}
+
+@media only screen and (max-width: 720px) {
+    /* For desktop: */
+    .container {width: 30%;}
+    .container2 {width: 30%;}
+    .cool {width: 30%;}
+    #hero {width: 30%;}
+    .hero_left {width: 30%;}
+    .hero_image {width: 30%;}
+    .container_page {width: 30%;}
+    #logo {width: 30%;}
+    .sub-content {width: 30%;}
+    #page {width: 30%;}
+    #footer {width: 30%;}
+    .hero_right {width: 30%;}
+    .button_1 {width: 30%;}
+}
+
+
+
